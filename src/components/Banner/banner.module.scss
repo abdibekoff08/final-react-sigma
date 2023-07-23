@@ -1,0 +1,31 @@
+.banner {
+    &_wrap {
+      background-color: #f1eff0;
+      background: url(../../assets/patterns.png) no-repeat left top;
+      background-size: cover;
+      height: 100%;
+      &_img {
+        width: 100%;
+        background-image: url(../../assets/back-banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    &_inner {
+      text-align: left;
+      padding: 230px 0;
+      p {
+        color: #68a47f;
+        font-size: 36px;
+        font-family: "Yellowtail", cursive;
+        margin-bottom: 0;
+      }
+      h2 {
+        margin-top: 0;
+        max-width: 530px;
+        color: #274c5b;
+        font-size: 70px;
+        font-weight: bold;
+      }
+    }
+  }
